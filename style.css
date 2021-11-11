@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dfdedb;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.frontPage img {
+  width: 40vw;
+  height: 100vh;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  padding: 40px;
+}
+
+.frontPageContent {
+  padding: 0px 100px 0px 100px;
+}
+
+s .frontPage {
+  height: 100vh;
+}
+
+.logo {
+  font-family: Abril Fatface;
+  color: #817770;
+  font-size: 64px;
+  font-weight: lighter;
+  margin-top: 50px;
+}
+
+p {
+  font-family: Poiret One;
+  font-size: 20px;
+  color: #392f27;
+}
+
+section#home {
+  margin-bottom: 100px;
+}
+section#packages {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.packageContainer {
+  background-color: white;
+  margin: 50px;
+  width: 350px;
+  height: 700px;
+}
+
+.imageContainer {
+  background-color: white;
+}
+
+.imageContainer img {
+  width: 350px;
+}
+
+.textContainer {
+  background: white;
+  margin: 10px;
+}
+
+.packageName {
+  font-family: Abril Fatface;
+  font-weight: lighter;
+  font-size: 40px;
+  color: #392f27;
+}
+
+.forYou {
+  font-family: Poiret One;
+  font-size: 22px;
+  color: #392f27;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+li {
+  color: #392f27;
+  font-family: Poiret One;
+  font-size: 5px;
+  list-style: inside;
+}
+
+li span {
+  font-size: 18px;
+}
