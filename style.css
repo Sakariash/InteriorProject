@@ -178,7 +178,7 @@ section#styles {
 .stepsParent {
   display: flex;
   flex-wrap: wrap;
-  height: 40vh;
+  height: 50vh;
   width: 100%;
 }
 .headerSteps {
@@ -191,14 +191,35 @@ section#styles {
   height: 75%;
   width: 25%;
   margin: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .steps h1 {
   font-family: Poiret One;
   font-size: 72px;
   color: white;
-  padding: 0px;
+  margin: 0px;
+  font-weight: lighter;
+}
+.steps h3 {
+  font-family: Poiret One;
+  font-size: 36px;
+  font-weight: lighter;
+  color: white;
   margin: 0px;
 }
+#steps p {
+  color: white;
+}
+.headerSteps {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.headerSteps p {
+  font-size: 27px;
+}
+
 #reference {
   align-items: center;
   justify-content: center;
