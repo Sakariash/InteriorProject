@@ -18,6 +18,13 @@ body {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
 }
+.navbar {
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  padding: 40px;
+}
 
 .frontPage img {
   width: 40vw;
@@ -32,15 +39,6 @@ section {
   width: 100%;
   height: 100vh;
   scroll-snap-align: center;
-}
-
-.navbar {
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  display: flex;
-  width: 100%;
-  padding: 40px;
 }
 
 .frontPageContent {
@@ -67,6 +65,7 @@ p {
 
 section#home {
   margin-bottom: 100px;
+  position: relative;
 }
 section#packages {
   display: flex;
