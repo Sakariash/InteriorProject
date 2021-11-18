@@ -127,3 +127,13 @@ li {
 li span {
   font-size: 18px;
 }
+
+.videoBox {
+  height: 70vh;
+  width: 100%;
+  background-color: #9c9897;
+}
+
+.videoBox video {
+  max-height: 100%;
+}
