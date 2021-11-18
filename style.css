@@ -143,22 +143,48 @@ li span {
 }
 
 section#styles {
+  display: flex;
+  flex-direction: column;
   height: 300vh;
   scroll-snap-align: start;
 }
-
-.parentStyles {
-  height: 300vh;
-  width: 100vw;
+.parentFallStyles {
+  height: 50px;
+  width: 100%;
   display: flex;
+  justify-content: right;
+  margin-top: 50px;
 }
-
-.imgStyles {
-  width: 50px;
-  height: 100px;
+.fallStyles {
+  height: 50px;
+  background-color: brown;
+  width: 70%;
 }
-
-.textStyles {
-  width: 50px;
-  height: 100px;
+.parentStyles {
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  background-color: cornsilk;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+#steps {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#reference {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#reviews {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
