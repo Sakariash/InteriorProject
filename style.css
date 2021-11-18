@@ -35,7 +35,7 @@ section {
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 1;
   display: flex;
@@ -127,4 +127,14 @@ li {
 
 li span {
   font-size: 18px;
+}
+
+.videoBox {
+  height: 70vh;
+  width: 100%;
+  background-color: #9c9897;
+}
+
+.videoBox video {
+  max-height: 100%;
 }
