@@ -137,3 +137,24 @@ li span {
 .videoBox video {
   max-height: 100%;
 }
+
+section#styles {
+  height: 300vh;
+  scroll-snap-align: start;
+}
+
+.parentStyles {
+  height: 300vh;
+  width: 100vw;
+  display: flex;
+}
+
+.imgStyles {
+  width: 50px;
+  height: 100px;
+}
+
+.textStyles {
+  width: 50px;
+  height: 100px;
+}
