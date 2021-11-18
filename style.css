@@ -25,7 +25,6 @@ body {
   width: 100%;
   padding: 40px;
 }
-
 .frontPage img {
   width: 40vw;
   height: 100vh;
@@ -33,15 +32,15 @@ body {
 
 section {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   width: 100%;
   height: 100vh;
   scroll-snap-align: center;
 }
 
 .frontPageContent {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   padding: 0px 100px 0px 100px;
 }
 
@@ -77,7 +76,9 @@ section#packages {
 .flex {
   display: flex;
   width: 100%;
+  align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .packageContainer {
@@ -129,9 +130,12 @@ li span {
 }
 
 .videoBox {
+  display: flex;
   height: 70vh;
   width: 100%;
   background-color: #9c9897;
+  justify-content: center;
+  align-self: center;
 }
 
 .videoBox video {
