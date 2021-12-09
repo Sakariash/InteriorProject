@@ -1,0 +1,36 @@
+section#home {
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.frontPage img {
+  width: 40vw;
+  height: 100vh;
+}
+
+.frontPageContent {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 100px 0px 100px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  padding: 40px;
+}
+
+s .frontPage {
+  height: 100vh;
+}
+
+.logo {
+  font-family: Abril Fatface;
+  color: #817770;
+  font-size: 64px;
+  font-weight: lighter;
+  margin-top: 50px;
+}

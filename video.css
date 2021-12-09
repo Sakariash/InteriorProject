@@ -1,0 +1,12 @@
+.videoBox {
+  display: flex;
+  height: 70vh;
+  width: 100%;
+  background-color: #9c9897;
+  justify-content: center;
+  align-self: center;
+}
+
+.videoBox video {
+  max-height: 100%;
+}

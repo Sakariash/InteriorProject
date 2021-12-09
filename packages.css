@@ -1,0 +1,65 @@
+section#packages {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.packageContainer {
+  background-color: white;
+  margin: 10px;
+  width: 380px;
+  height: 100vh;
+}
+
+.imageContainer {
+  background-color: white;
+}
+
+.imageContainer img {
+  width: 380px;
+}
+
+.textContainer {
+  background: white;
+  margin-top: 70px;
+}
+
+.packageName {
+  font-family: Abril Fatface;
+  font-weight: lighter;
+  font-size: 40px;
+  color: #392f27;
+}
+
+.forYou {
+  font-family: Poiret One;
+  font-size: 22px;
+  color: #392f27;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+  line-height: 25px;
+}
+
+li {
+  color: #392f27;
+  font-family: Poiret One;
+  font-size: 5px;
+  list-style: inside;
+}
+
+li span {
+  font-size: 18px;
+}
