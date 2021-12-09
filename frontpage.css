@@ -34,3 +34,41 @@ s .frontPage {
   font-weight: lighter;
   margin-top: 50px;
 }
+
+@media only screen and (max-width: 375px) {
+  section {
+    height: unset;
+  }
+
+  body {
+    display: block;
+  }
+  section#home {
+    position: relative;
+    width: 100vw;
+    flex-direction: column;
+  }
+  .frontPage img {
+    width: 100vw;
+    height: 100vh;
+    order: 1;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+    padding: 40 px;
+    color: #dfdedb;
+    font-size: 50px;
+    margin-left: 123px;
+    margin-top: 100px;
+  }
+  .frontPageContent {
+    order: 2;
+    width: 100vw;
+    padding: 0px 0px 0px 0px;
+    margin-top: 50px;
+  }
+}
