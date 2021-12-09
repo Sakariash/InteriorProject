@@ -30,7 +30,7 @@ section#packages {
 
 .textContainer {
   background: white;
-  margin-top: 70px;
+  /* margin-top: 70px; */
 }
 
 .packageName {
@@ -62,4 +62,49 @@ li {
 
 li span {
   font-size: 18px;
+}
+
+@media only screen and (max-width: 375px) {
+  .flex {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .packageContainer {
+    height: 600px;
+    width: 300px;
+  }
+
+  .imageContainer img {
+    width: 300px;
+  }
+
+  .textContainer {
+    margin-top: 0;
+  }
+
+  h2 {
+    margin-bottom: 5px;
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+  .forYou {
+    margin: 10px;
+  }
+
+  ul {
+    margin: 5px;
+  }
+
+  .videoBox video {
+    max-width: 100vw;
+  }
+
+  .videoBox {
+    height: 40vh;
+    background-color: unset;
+  }
 }
