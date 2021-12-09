@@ -60,7 +60,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* justify-content: space-between; */
     margin: 0px 20px 0px 0px;
   }
   .footerContact {
