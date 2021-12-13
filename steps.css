@@ -59,3 +59,20 @@
 .headerSteps p {
   font-size: 27px;
 }
+
+@media only screen and (max-width: 375px) {
+  .stepsParent {
+    height: unset;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 375px;
+  }
+  .steps {
+    height: unset;
+    width: 100%;
+  }
+  #steps {
+    height: auto;
+  }
+}

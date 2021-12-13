@@ -73,6 +73,7 @@
     flex-direction: column;
     margin-top: 10px;
     position: absolute;
+    padding: 20px;
   }
   .footerLogo {
     font-family: Abril Fatface;
@@ -90,5 +91,13 @@
     margin-left: -10px;
     position: absolute;
     bottom: 0;
+  }
+  .footerLogo h1 {
+    font-size: 30px;
+    margin: 37px;
+    padding-top: 50px;
+  }
+  .footerContact p {
+    font-size: 18px;
   }
 }
