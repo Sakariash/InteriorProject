@@ -48,19 +48,30 @@ p {
 }
 
 button {
-  width: 155px;
-  height: 27px;
-  font-size: 18px;
-  background-color: #dfdedb;
-  margin-top: 20px;
+  width: 255px;
+  height: 5%;
+  font-size: 22px;
+  background-color: #aaa29b;
+  color: white;
   cursor: pointer;
   font-family: Poiret One;
   border: none;
+  -webkit-text-stroke: 1px;
+  transition-duration: 0.8s;
+}
+
+button:hover {
+  background-color: white;
+  color: #aaa29b;
+  border: 0.5px;
+  /* box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 #aaa29b; */
+  border: 1px solid #aaa29b;
 }
 @media only screen and (max-width: 375px) {
   body {
     width: 375px;
   }
+
   .container {
     scroll-behavior: smooth;
     scroll-snap-type: none;

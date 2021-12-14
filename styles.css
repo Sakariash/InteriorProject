@@ -12,6 +12,7 @@ section#styles {
   position: absolute;
   right: 0;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .parentStyles {
@@ -29,6 +30,7 @@ section#styles {
   grid-column: 2 / span 4;
   grid-row: 4 / span 13;
   object-fit: cover;
+  margin-top: 30px;
 }
 
 .trendImg img {
@@ -38,8 +40,13 @@ section#styles {
 
 section#styles .parentStyles h2 {
   margin-left: 50px;
+  margin-top: 10px;
 }
 
+section#styles h2 {
+  color: #4d4138;
+  margin: 50px;
+}
 @media only screen and (min-width: 376px) {
   .parentStyles {
     display: grid;
@@ -127,12 +134,13 @@ section#styles .parentStyles h2 {
   }
   .menu {
     position: unset;
-    width: 342px;
+    width: 100vw;
     height: 56px;
-    margin-left: 33px;
+
     margin-bottom: 20px;
     background-color: #bab2ae;
-    right: 0;
+    display: flex;
+    justify-content: center;
   }
 
   .parentStyles img {
@@ -149,9 +157,6 @@ section#styles .parentStyles h2 {
     grid-template-rows: repeat(1fr);
   } */
   }
-  /* .parentStyles h2 {
-    margin-left: 0px !important;
-  } */
 
   .trendImg {
     width: 375px;
@@ -160,8 +165,7 @@ section#styles .parentStyles h2 {
     width: 375px;
   }
   .trendText {
-    margin-left: 25px;
-    padding: 0px;
+    padding: 10%;
   }
   .trendText p {
     margin-left: 0px;
@@ -172,13 +176,16 @@ section#styles .parentStyles h2 {
     padding: 0px;
   }
 
+  .parentStyles .trendText h2 {
+    margin-bottom: 4% !important;
+  }
+
   .japandiImg {
     width: 375px;
   }
 
   .japandiText {
-    margin-left: 25px;
-    padding: 0px;
+    padding: 10%;
   }
 
   .japandiText p {
@@ -186,7 +193,7 @@ section#styles .parentStyles h2 {
     padding: 0px;
   }
   .japandiText h2 {
-    margin-left: 0px !important;
+    margin: 0px !important;
     padding: 0px;
   }
 
@@ -202,8 +209,7 @@ section#styles .parentStyles h2 {
   }
 
   .miniText {
-    margin-left: 25px;
-    padding: 0px;
+    padding: 10%;
   }
   .miniText p {
     margin-left: 0px;
@@ -211,7 +217,7 @@ section#styles .parentStyles h2 {
   }
 
   .miniText h2 {
-    margin-left: 0px !important;
+    margin: 0px !important;
     padding: 0px;
   }
 
@@ -220,8 +226,7 @@ section#styles .parentStyles h2 {
   }
 
   .scandicText {
-    margin-left: 25px;
-    padding: 0px;
+    padding: 10%;
   }
   .scandicText p {
     margin-left: 0px;
@@ -229,7 +234,7 @@ section#styles .parentStyles h2 {
   }
 
   .scandicText h2 {
-    margin-left: 0px !important;
+    margin: 0px !important;
     padding: 0px;
   }
 }

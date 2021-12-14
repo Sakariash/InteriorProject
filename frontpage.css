@@ -8,6 +8,10 @@ section#home {
   height: 100vh;
 }
 
+.menuMobile {
+  display: none;
+}
+
 .frontPageContent {
   align-items: center;
   justify-content: center;
@@ -47,6 +51,11 @@ s .frontPage {
     position: relative;
     width: 100vw;
     flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  section#home p {
+    padding: 30px;
   }
   .frontPage img {
     width: 100vw;
@@ -54,11 +63,14 @@ s .frontPage {
     order: 1;
   }
 
+  .navbar {
+    padding: 30px;
+  }
+
   .logo {
     position: absolute;
     top: 0;
     display: flex;
-    width: 100%;
     padding: 40 px;
     color: #dfdedb;
     font-size: 50px;
@@ -70,5 +82,15 @@ s .frontPage {
     width: 100vw;
     padding: 0px 0px 0px 0px;
     margin-top: 50px;
+  }
+
+  .menuMobile {
+    display: block;
+  }
+  .flex {
+    gap: 40px;
+  }
+  .menuDesktop {
+    display: none;
   }
 }
