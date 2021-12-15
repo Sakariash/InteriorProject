@@ -58,6 +58,7 @@ button {
   border: none;
   -webkit-text-stroke: 1px;
   transition-duration: 0.8s;
+  margin-top: 10%;
 }
 
 button:hover {
